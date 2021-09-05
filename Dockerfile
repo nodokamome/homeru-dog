@@ -7,7 +7,7 @@ RUN yarn
 
 ENV TZ=Asia/Tokyo
 
-COPY app/ /usr/src/app
+COPY . .
 
 RUN yarn compile
 
